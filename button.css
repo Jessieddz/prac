@@ -1,0 +1,99 @@
+.header{
+   
+   text-align: center;
+ 
+
+    
+}
+
+
+h2{
+    font-size: 30px;
+}
+h1{
+    font-size: 80px;
+}
+
+* {cursor:url("img\curtor.png"), auto;
+    }
+
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+     
+      .description {
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #333;}
+
+
+
+button{
+    position: relative;
+    font-size: 30px;
+    padding: 10px 10px;
+    font-family:'Winky Rough',cursive;
+    background-color: rgb(255, 255, 255) ;
+    border: 1px solid rgb(249, 68, 210);
+    font-weight: 700;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 1s;
+}
+
+button:hover .after,
+ button:hover .before{
+    width: 50%;
+}
+
+.before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background-color:  rgb(249, 68, 210);
+    transition: all 0.5s;
+    z-index: -1;
+}
+
+button:hover{
+    color: rgb(255, 255, 255);
+}
+
+.after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background-color: rgb(249, 68, 210);
+    transition: all 0.5s;
+    z-index: -1;
+
+}
+
+body{
+   font-family:'Winky Rough',cursive;;
+   overflow: hidden;
+}
+
+
+body {
+  font-family: 'Winky Rough', cursive;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 90px 30px;
+  margin-top: 30px;
+}
